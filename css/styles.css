@@ -1,0 +1,17 @@
+body {
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    }
+
+.container-fluid {
+        margin: 0 auto;
+        width: 960px;
+       
+        }
+
+.jumbotron {
+    background-color: #f2d3bc;
+}
+h2 {
+    font-family: 'Red Rose', cursive;
+}
