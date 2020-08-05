@@ -18,3 +18,8 @@ h2 {
 .intro{
     font-family: 'Roboto Condensed', sans-serif;
 }
+.whatwedo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    }
