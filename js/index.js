@@ -61,7 +61,7 @@ $(document).ready(function() {
       $("#accessories").html($(".accessories option:selected").text() + " - " + accessories);
       $("#total").html(total);
   
-        class Outfit {
+        class outfit {
             constructor(dress, heels, accessories, total, orderNo) {
                 this.dress = dress;
                 this.heels = heels;
@@ -86,7 +86,7 @@ $(document).ready(function() {
   
         var newRow = '<tr><th scope="row">' + newOutfit.orderNo + '</th><td id="dress">' + $(".dress option:selected").text() + " - " + newOutfit.size + '</td><td id="heels>' + $(".heels option:selected").text() + " - " + newOutfit.heels + '</td><td id="accessories">' + $(".accessories option:selected").text() + " - " + newOutfit.accessories + '</td><td id="total">' + newOutfit.total + '</td></tr>'
   
-        $("#outfit").append(newRow);
+        $("#Outfit").append(newRow);
 
 });
 $(".btn.check-out").click(function() {
@@ -125,4 +125,3 @@ $(".btn.check-out").click(function() {
 
 });
 
-});
